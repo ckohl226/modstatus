@@ -1,0 +1,14 @@
+---
+applications:
+- name: treehouse
+  memory: 256M
+  instances: 1
+  host: treehouse
+  domain: cfapps.io
+  path: "."
+  services:
+    elephantsql-a790c:
+      label: elephantsql
+      provider: 
+      version: 
+      plan: turtle
